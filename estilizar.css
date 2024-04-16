@@ -7,12 +7,12 @@
 }
 .hed{
     display: flex;
-    background-color: rgba(0, 0, 255, 0.671);
+    background-color: rgb(155, 236, 220);
     padding: 5rem;
     justify-content: center;
 }
 .hed a{
-    color: white;
+    color: gray;
     margin-left: 4rem;
     font-size: 20px;
 }
@@ -25,7 +25,7 @@
 
 .img{
     padding: 12rem;
-    background-image: url(imagen/iphone=photo.jpg);
+    background-image: url(iphone1.jpg);
     background-size: cover;
     margin-left: -100px;
 }
@@ -40,38 +40,85 @@ h1{
 
 .img a button{
     font-size: 1.1rem;
-    color: white;
+    color: gray;
     
 }
 .img button{
-    background-color: rgba(0, 0, 255, 0.74);
+    background-color: rgb(155, 236, 220);
     margin-top: 1.8rem;
     padding: 10px;
-    width: 21rem;
+    width: 10rem;
 }
 .img button:hover{
     cursor: pointer;
+    background-color: aquamarine;
+}
+
+.img a button:hover{
+    color: black;
+    transition: 0.5s;
 }
 
 .div{
     padding: 12rem;
     display: flex;
-    font-size: 1.5rem;background-color:  rgba(0, 0, 255, 0.671);
-    color: white;
+    font-size: 1.5rem;background-color:  rgb(155, 236, 220);
+    color: gray;
     justify-items: center;
 
 }
 
-
-
-
-
 .section{
-   padding: 15rem;
-   background-size: cover;
+    padding: 12rem;
+    background-image: url(iphone2.jpg);
+    background-size: cover;
+}
+
+.section div h2{
+    color: gray;
+    margin-left: 650px;
+}
+
+.section div p {
+    color: gray;
+    margin-left: 650px;
+    margin-top: 1em;
 }
 
 .section a button{
+    font-size: 1.1rem;
+    color: gray;
+    margin-left: 650px;
+}
+.section button{
+    background-color: rgb(155, 236, 220);
+    margin-top: 1.8rem;
     padding: 10px;
+    width: 10rem;
+}
+.section button:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
 
+.section a button:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.footer-div{
+    text-align: center;
+    padding: 4em;
+    background-color:  rgb(155, 236, 220);
+}
+
+
+.footer-div a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-div a:hover {
+    color: black;
+    transition: 0.5s;
 }
