@@ -3,7 +3,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -29,23 +29,22 @@ body {
 
 #section1{
     padding: 12rem;
-    text-align: center;
 }
 
-#footer-div{
+#footer{
     text-align: center;
     padding: 2em;
     background-color:  black;
 }
 
 
-#footer-div a {
+#footer a {
     text-decoration: none;
     color: gray;
     font-size: 20px;
 }
 
-#footer-div a:hover {
+#footer a:hover {
     color: white;
     transition: 0.5s;
 }
