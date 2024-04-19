@@ -28,7 +28,9 @@ body {
 }
 
 #section1{
-    padding: 10rem;
+    padding: 9rem;
+    display: flex;
+    justify-content: center; /* isso aqui deixa no centro */
 }
 
 #section1 div{
@@ -36,15 +38,81 @@ body {
 }
 
 #section1 div p{
-    
+    font-size: 20px;
+    color: gray;
 }
 
-#section2 img{
+#section1 div h1{
+    font-size: 50px;
+}
+
+#section1 div h3{
+    font-size: 40px;
+}
+
+#section-img1 img{
     width: 100%;
     height: auto;
 }
 
+#section-txt{
+    padding: 1em;
+    display: flex;
+    justify-content: center; /* isso aqui deixa no centro */
+    margin-top: -5px;
+}
 
+#section-txt div{
+    text-align: left;
+}
+
+#section-txt div p{
+    font-size: 12px;
+    color: gray;
+}
+
+#section3{
+    padding: 3rem;
+    display: flex;
+    justify-content: center; /* isso aqui deixa no centro */
+}
+
+#section3 div{
+    text-align: left;
+    width: 45em;
+    margin-top: -30px;
+}
+
+#section3 div p{
+    font-size: 19px;
+    color: black;
+    margin-top: 2em;
+}
+
+#section-img2 div{
+    text-align: center;
+}
+
+#section-img2 div img{
+    height: 35rem;
+    width: 60rem;
+}
+
+#section-txt2{
+    padding: 1em;
+    display: flex;
+    justify-content: center; /* isso aqui deixa no centro */
+    margin-top: -5px;
+}
+
+#section-txt2 div{
+    text-align: left;
+}
+
+#section-txt2 div p{
+    font-size: 12px;
+    color: gray;
+}
 
 #footer{
     text-align: center;
