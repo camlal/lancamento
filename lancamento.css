@@ -28,8 +28,23 @@ body {
 }
 
 #section1{
-    padding: 12rem;
+    padding: 10rem;
 }
+
+#section1 div{
+    text-align: left;
+}
+
+#section1 div p{
+    
+}
+
+#section2 img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 #footer{
     text-align: center;
